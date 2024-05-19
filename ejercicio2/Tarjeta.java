@@ -12,7 +12,7 @@ public class Tarjeta extends UnicastRemoteObject implements TarjetaInterface {
     }
 
     @Override
-    public boolean retirar(double monto) throws RemoteException {  // Cambiado de cargar a retirar
+    public boolean retirar(double monto) throws RemoteException { 
         if (monto > saldo) {
             return false;
         }
@@ -21,7 +21,7 @@ public class Tarjeta extends UnicastRemoteObject implements TarjetaInterface {
     }
 
     @Override
-    public boolean depositar(double monto) throws RemoteException {  // Cambiado de abonar a depositar
+    public boolean depositar(double monto) throws RemoteException {  
         saldo += monto;
         return true;
     }
