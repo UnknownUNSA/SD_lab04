@@ -9,3 +9,4 @@ El equipo de trabajo está compuesto por:
 
 ## Descripción del Laboratorio:
 
+En este laboratorio, aprendimos a implementar un servicio remoto utilizando Java RMI (Remote Method Invocation). El objetivo fue crear una aplicación distribuida que permita realizar operaciones aritméticas básicas (suma, resta, multiplicación y división) de forma remota.
